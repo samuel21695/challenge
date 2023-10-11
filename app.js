@@ -12,3 +12,6 @@ function challengeTwo(arr) {
   }
   return arr;
 }
+const unsortedArray = [63, 23, 53, 33, 18, 45];
+console.log(challengeTwo(unsortedArray));
+// 출력: [18, 23, 33, 45, 53, 63]
